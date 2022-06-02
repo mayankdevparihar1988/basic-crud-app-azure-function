@@ -1,0 +1,15 @@
+##URL
+@url = http://localhost:7071/api/postTask
+
+### Get Call
+GET {{url}} HTTP/1.1
+
+### Post call
+
+POST {{url}} HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Add a tester to team",
+    "description": "Adding a new tester to the team"
+}
